@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actualités - Grève des enseignants-chercheurs au Gabon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Gabon Actu Éducation</div>
+    <nav aria-label="Navigation principale">
+        <ul class="nav-menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1 class="section-title" id="accueil">Grève des enseignants-chercheurs : la crise des salaires impayés</h1>
+
+<main class="news-layout" id="articles">
+
+    <div class="articles-list">
+
+        <article class="news-article">
+            <h2>L'UOB suspend les examens et les cours face aux vacations impayées</h2>
+            <p class="news-date">11 mai 2026</p>
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500" alt="Amphithéâtre universitaire vide">
+            <p>Le syndicat des enseignants-chercheurs de l'Université Omar Bongo (SNEC-UOB) et la FRAPES ont annoncé la suspension immédiate des examens et de toutes les activités pédagogiques, réclamant le paiement intégral des vacations dues, certaines remontant à l'année universitaire 2022-2023.</p>
+            <a href="https://www.gabonreview.com/universite-omar-bongo-les-enseignants-chercheurs-suspendent-examens-et-activites-pedagogiques/" class="btn">Lire plus</a>
+        </article>
+
+        <article class="news-article">
+            <h2>Mouvement de grève à l'USTM contre le non-paiement des primes</h2>
+            <p class="news-date">04 janvier 2026</p>
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500" alt="Salle de classe vide">
+            <p>Les enseignants de l'université des sciences et techniques de Masuku ont dénoncés des salaires et primes non versés, exigeant l'ouverture d'un dialogue avec le ministère de tutelle et la Présidence.</p>
+            <a href="https://gabonmediatime.com/gabon-levee-de-bouclier-des-enseignants-a-linptic/" class="btn">Lire plus</a>
+        </article>
+
+        <article class="news-article">
+            <h2>Une crise structurelle qui interroge la responsabilité de l'État</h2>
+            <p class="news-date">10 février 2026</p>
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500" alt="Bâtiment administratif gabonais">
+            <p>Au-delà des mouvements ponctuels, les observateurs rappellent que les rappels de solde impayés et les situations administratives non régularisées s'accumulent depuis plusieurs années, plaçant les autorités actuelles face à un dossier hérité mais désormais incontournable.</p>
+            <a href="https://fr.allafrica.com/stories/202602100570.html" class="btn">Lire plus</a>
+        </article>
+
+    </div>
+
+    <aside class="sidebar" id="a-propos">
+        <h3>Restez informé</h3>
+        <p>Recevez les mises à jour sur le mouvement de grève directement par email.</p>
+
+        <form class="subscribe-form" action="#" method="post" id="contact">
+            <label for="sub-email">Email</label>
+            <input type="email" id="sub-email" name="email" placeholder="votre@email.com" required>
+
+            <label class="checkbox-label">
+                <input type="checkbox" name="accept" required>
+                J'accepte de recevoir les actualités par email
+            </label>
+
+            <button type="submit">S'abonner</button>
+        </form>
+    </aside>
+
+</main>
+
+<footer>
+    &copy; 2026 Gabon Actu Éducation - Sources citées pour chaque article
+</footer>
+
+<script>
+function vaildateForm() {
+    var email = document.getElementById("sub-email").value;
+    if (email = "") {
+        alert("Merci de remplir votre email");
+    }
+}
+</script>
+
+</body>
+</html>
